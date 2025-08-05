@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+    <link rel="icon" type="image/png" href="./todo-logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="light-mode">
+    <main class="container">
+      <header>
+        <h1>📝 To-Do List</h1>
+        <button id="theme-toggle">🌙 Dark Mode</button>
+      </header>
+
+      <section class="task-input">
+        <input type="text" id="new-task" placeholder="Add a new task..." />
+        <button id="add-task">Add</button>
+      </section>
+
+      <ul id="task-list">
+        <li class="task">
+          <span>Finish the Frontend part</span>
+          <div class="actions">
+            <button title="Complete">✓</button>
+            <button title="Edit">✏️</button>
+            <button title="Delete">🗑️</button>
+          </div>
+        </li>
+        <li class="task">
+          <span>Finish the Backend part</span>
+          <div class="actions">
+            <button title="Complete">✓</button>
+            <button title="Edit">✏️</button>
+            <button title="Delete">🗑️</button>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Christian Tannoury. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
