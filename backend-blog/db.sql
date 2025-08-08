@@ -1,6 +1,6 @@
--- Creating DB
+-- Creating Database
 CREATE DATABASE IF NOT EXISTS blog_db;
--- Using DB
+-- Using Database
 USE blog_db;
 
 -- Creating Tables
